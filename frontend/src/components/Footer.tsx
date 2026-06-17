@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { createTranslator, type Locale, type NavigationLink } from '@/lib/eltex';
+import { createTranslator, type Locale, type NavigationLink } from '@/lib/eltex-alatau';
 
 type FooterProps = {
   locale: Locale;

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { createTranslator, type AdvantageItem, type AdvantageStat, type Locale } from '@/lib/eltex';
+import { createTranslator, type AdvantageItem, type AdvantageStat, type Locale } from '@/lib/eltex-alatau';
 
 type AdvantagesProps = {
   locale: Locale;

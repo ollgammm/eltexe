@@ -1,4 +1,4 @@
-import { type Locale } from '@/lib/eltex';
+import { type Locale } from '@/lib/eltex-alatau';
 
 type AchievementStat = {
   value: string;

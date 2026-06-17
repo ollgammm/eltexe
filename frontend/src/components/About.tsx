@@ -1,4 +1,4 @@
-import { createTranslator, type AboutItem, type Locale } from '@/lib/eltex';
+import { createTranslator, type AboutItem, type Locale } from '@/lib/eltex-alatau';
 
 type AboutProps = {
   locale: Locale;

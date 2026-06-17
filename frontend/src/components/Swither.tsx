@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
-import { LOCALES, LOCALE_LABELS, LOCALE_NAMES, type Locale } from '@/lib/eltex';
+import { LOCALES, LOCALE_LABELS, LOCALE_NAMES, type Locale } from '@/lib/eltex-alatau';
 
 type Props = {
   locale: Locale;
