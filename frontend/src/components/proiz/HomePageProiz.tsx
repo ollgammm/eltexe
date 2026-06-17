@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import About from '@/components/About';
-import Advantages from '@/components/Advantages';
-import Header from '@/components/Header';
+import About from './About';
+import Advantages from './Advantages';
+import Header from './Header';
 import Hero from './Hero';
 import { DEFAULT_LOCALE, type Locale } from '@/lib/eltex';
 import ChatWidget from './ChatWidget';
