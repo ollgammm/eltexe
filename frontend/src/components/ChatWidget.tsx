@@ -17,7 +17,7 @@ const SITE: string = 'eltexalatau.kz';
 const TG_ON: boolean = TG_TOKEN !== '';
 
 const PHONE_NUDGES = [
-  '\n\nОставьте номер телефона — менеджер перезвонит в течение 5 минут.',
+  '\n\nОставьте номер телефона — менеджер перезвонит в ближайшее время.',
   '\n\nУкажите контактный номер, и менеджер подберёт решение под вашу задачу.',
   '\n\nНапишите номер телефона — подготовим коммерческое предложение.',
   '\n\nОставьте контакт — свяжемся и ответим на все вопросы.',
@@ -123,8 +123,9 @@ async function tgSend(text: string) {
 
 const QUICK_CHIPS = [
   { label: 'Цены', text: 'Цены на коммутаторы?' },
-  { label: 'Каталог', text: 'Какое оборудование есть?' },
-  { label: 'GPON', text: 'Есть оборудование GPON?' },
+  { label: 'Коммутатор MES', text: 'Нужен коммутатор MES' },
+  { label: 'Маршрутизатор ESR', text: 'Нужен маршрутизатор ESR' },
+  { label: 'xPON ONT OLT', text: 'Интересует xPON ONT OLT' },
   { label: 'Wi-Fi', text: 'Нужны Wi-Fi точки доступа' },
 ];
 
@@ -426,7 +427,7 @@ export default function ChatWidget() {
             </div>
             <div className={styles.cwPhoneBarText}>
               <div className={styles.cwPhoneBarTitle}>Оставьте номер — перезвоним</div>
-              <div className={styles.cwPhoneBarSub}>Менеджер свяжется в течение 5 минут</div>
+              <div className={styles.cwPhoneBarSub}>Менеджер свяжется в ближайшее время.</div>
             </div>
             <div className={styles.cwPhoneBarArr}>›</div>
           </div>
