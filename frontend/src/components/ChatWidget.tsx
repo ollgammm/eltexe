@@ -283,11 +283,9 @@ export default function ChatWidget() {
       );
       setMessages((prev) => [
         ...prev.slice(0, -1),
-        {
+       {
           role: 'bot',
-          text: ok
-            ? 'Менеджер уведомлён. Мы свяжемся с вами в ближайшее время.\n\n+7 727 339-76-10\n+7 701 467-36-49'
-            : 'Свяжитесь с менеджером напрямую:\n+7 727 339-76-10\n+7 701 467-36-49',
+          text: 'Оставьте номер телефона — менеджер перезвонит в ближайшее время.',
           time: nowTime(),
         },
       ]);
@@ -295,9 +293,9 @@ export default function ChatWidget() {
     } else {
       setMessages((prev) => [
         ...prev.slice(0, -1),
-        {
+         {
           role: 'bot',
-          text: 'Свяжитесь с менеджером:\n+7 727 339-76-10\n+7 701 467-36-49\neltexalatau.kz',
+          text: 'Оставьте номер телефона — менеджер перезвонит в ближайшее время.',
           time: nowTime(),
         },
       ]);
@@ -426,7 +424,7 @@ export default function ChatWidget() {
               </svg>
             </div>
             <div className={styles.cwPhoneBarText}>
-              <div className={styles.cwPhoneBarTitle}>Оставьте номер — перезвоним</div>
+              <div className={styles.cwPhoneBarTitle}>Оставьте номер телефона</div>
               <div className={styles.cwPhoneBarSub}>Менеджер свяжется в ближайшее время.</div>
             </div>
             <div className={styles.cwPhoneBarArr}>›</div>
