@@ -225,7 +225,39 @@ export default function ChatWidget() {
         setPhoneReceived(true);
         setShowPhoneBar(false);
       }
+/**
+ * Проверяет, состоит ли номер телефона ровно из 11 цифр.
+ * @param phone Строка с номером телефона от пользователя
+ * @returns {boolean} true, если номер корректный, иначе false
+ */
+function validatePhoneNumber(phone: string): boolean {
+  // 1. Удаляем все символы, кроме цифр
+  const cleaned = phone.replace(/\D/g, '');
 
+  // 2. Проверяем, что получилось ровно 11 цифр
+  return cleaned.length === 11;
+}
+
+// --- ПРИМЕР ИСПОЛЬЗОВАНИЯ В ИИ-КОНСУЛЬТАНТЕ ---
+
+function handleUserResponse(userInput: string): string {
+  if (validatePhoneNumber(userInput)) {
+    // Очищаем номер для сохранения в базу данных
+    const formattedPhone = userInput.replace(/\D/g, '');
+    
+    // Здесь логика сохранения в CRM или отправки менеджеру
+    return `Спасибо! Номер ${formattedPhone} принят. Наш менеджер свяжется с вами в ближайшее время.`;
+  } else {
+    // Если клиент ошибся
+    return "Пожалуйста, введите корректный номер телефона, состоящий из 11 цифр (например, 89991234567).";
+  }
+}
+
+// Тесты для проверки:
+console.log(validatePhoneNumber("+7 (999) 123-45-67")); // true (11 цифр)
+console.log(validatePhoneNumber("89991234567"));        // true (11 цифр)
+console.log(validatePhoneNumber("9991234567"));         // false (10 цифр)
+console.log(validatePhoneNumber("8-999-123-45-678"));   // false (12 цифр)
       msgCountRef.current += 1;
 
       const userMsg: Message = { role: 'user', text: text.trim(), time: nowTime() };
