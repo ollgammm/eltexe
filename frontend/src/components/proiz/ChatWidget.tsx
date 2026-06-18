@@ -20,30 +20,8 @@ function getNextNudge() {
   nudgeIndex++;
   return nudge;
 }
-// Формируем текст для Telegram-бота
-const cleanNum = text.replace(/\D/g, '');
 
-// Превращаем первую цифру в семерку для удобства набора (если клиент ввел 8...)
-const dialPhone = `7${cleanNum.slice(1)}`; 
 
-const tgMessage = `
- <b>ПОЛУЧЕН НОВЫЙ КОНТАКТ!</b>
-────────────────────
- <b>Телефон:</b> <code>+${dialPhone}</code> <i>(нажми для копирования)</i>
- <b>Сессия:</b> ${sessionId}
- <b>Сайт:</b> ${SITE}
-
- <b>Последний вопрос клиента:</b>
-"${text.trim()}"
-────────────────────
-`;
-// Красивое форматирование для вывода в чат:
-const cleanNum = text.replace(/\D/g, ''); // получаем чистые 11 цифр (например, 87012345678)
-const formatted = `+7 (${cleanNum.slice(1, 4)}) ${cleanNum.slice(4, 7)}-${cleanNum.slice(7, 9)}-${cleanNum.slice(9, 11)}`;
-// Результат: +7 (701) 123-45-68
-
-// Отправляем в ваш ТГ-канал
-await tgSend(tgMessage);
 function containsPhone(text: string): boolean {
   return (
     /(\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}/.test(text) ||
@@ -141,7 +119,7 @@ const QUICK_CHIPS = [
   { label: 'Маршрутизатор ESR', text: 'Нужен маршрутизатор ESR' },
   { label: 'xPON ONT OLT', text: 'Интересует xPON ONT OLT' },
   { label: 'Wi-Fi', text: 'Нужны Wi-Fi точки доступа' },
-  { label: 'VoIP', text: 'Нужен VoIP' },
+  { label: 'VoIP', text: 'Нужно VoIP оборудование' },
 ];
 
 export default function ChatWidget() {

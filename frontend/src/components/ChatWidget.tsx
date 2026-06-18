@@ -36,31 +36,8 @@ function containsPhone(text: string): boolean {
     /\d{10,11}/.test(text.replace(/[\s\-\(\)]/g, ''))
   );
 }
-// Формируем текст для Telegram-бота
-const cleanNum = text.replace(/\D/g, '');
+// отправляем в телеграм канал
 
-// Превращаем первую цифру в семерку для удобства набора (если клиент ввел 8...)
-const dialPhone = `7${cleanNum.slice(1)}`; 
-
-const tgMessage = `
- <b>ПОЛУЧЕН НОВЫЙ КОНТАКТ!</b>
-────────────────────
- <b>Телефон:</b> <code>+${dialPhone}</code> <i>(нажми для копирования)</i>
- <b>Сессия:</b> ${sessionId}
- <b>Сайт:</b> ${SITE}
-
- <b>Последний вопрос клиента:</b>
-"${text.trim()}"
-────────────────────
-`;
-// Красивое форматирование для вывода в чат:
-const cleanNum = text.replace(/\D/g, ''); // получаем чистые 11 цифр (например, 87012345678)
-const formatted = `+7 (${cleanNum.slice(1, 4)}) ${cleanNum.slice(4, 7)}-${cleanNum.slice(7, 9)}-${cleanNum.slice(9, 11)}`;
-// Результат: +7 (701) 123-45-68
-
-reply = `🔥 Отлично! Номер ${formatted} успешно принят. `;
-// Отправляем в ваш ТГ-канал
-await tgSend(tgMessage);
 async function callAI(history: { role: string; content: string }[]): Promise<string> {
   try {
     const res = await fetch('/api/chat', {
