@@ -76,7 +76,12 @@ async function callAI(history: { role: string; content: string }[]): Promise<str
     return fallback(history.at(-1)?.content ?? '');
   }
 }
+// Красивое форматирование для вывода в чат:
+const cleanNum = text.replace(/\D/g, ''); // получаем чистые 11 цифр (например, 87012345678)
+const formatted = `+7 (${cleanNum.slice(1, 4)}) ${cleanNum.slice(4, 7)}-${cleanNum.slice(7, 9)}-${cleanNum.slice(9, 11)}`;
+// Результат: +7 (701) 123-45-68
 
+reply = `🔥 Отлично! Номер ${formatted} успешно принят. `;
 interface Message {
   role: 'user' | 'bot';
   text: string;
