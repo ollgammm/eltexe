@@ -20,7 +20,27 @@ function getNextNudge() {
   nudgeIndex++;
   return nudge;
 }
+// Формируем текст для Telegram-бота
+const cleanNum = text.replace(/\D/g, '');
 
+// Превращаем первую цифру в семерку для удобства набора (если клиент ввел 8...)
+const dialPhone = `7${cleanNum.slice(1)}`; 
+
+const tgMessage = `
+ <b>ПОЛУЧЕН НОВЫЙ КОНТАКТ!</b>
+────────────────────
+ <b>Телефон:</b> <code>+${dialPhone}</code> <i>(нажми для копирования)</i>
+ <b>Сессия:</b> ${sessionId}
+ <b>Сайт:</b> ${SITE}
+
+ <b>Последний вопрос клиента:</b>
+"${text.trim()}"
+────────────────────
+ Менеджеры, срочно свяжитесь с клиентом!
+`;
+
+// Отправляем в ваш ТГ-канал
+await tgSend(tgMessage);
 function containsPhone(text: string): boolean {
   return (
     /(\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}/.test(text) ||
@@ -118,6 +138,7 @@ const QUICK_CHIPS = [
   { label: 'Маршрутизатор ESR', text: 'Нужен маршрутизатор ESR' },
   { label: 'xPON ONT OLT', text: 'Интересует xPON ONT OLT' },
   { label: 'Wi-Fi', text: 'Нужны Wi-Fi точки доступа' },
+  { label: 'VoIP', text: 'Нужен VoIP' },
 ];
 
 export default function ChatWidget() {
