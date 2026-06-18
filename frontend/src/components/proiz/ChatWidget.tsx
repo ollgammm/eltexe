@@ -207,15 +207,15 @@ function handleUserResponse(userInput: string): string {
     return `Спасибо! Номер ${formattedPhone} принят. Наш менеджер свяжется с вами в ближайшее время.`;
   } else {
     // Если клиент ошибся
-    return "Пожалуйста, введите корректный номер телефона, состоящий из 11 цифр (например, 89991234567).";
+    return "Пожалуйста, введите корректный номер телефона, состоящий из 11 цифр (например, +7 701 777 77 77).";
   }
 }
 
 // Тесты для проверки:
-console.log(validatePhoneNumber("+7 (999) 123-45-67")); // true (11 цифр)
-console.log(validatePhoneNumber("89991234567"));        // true (11 цифр)
-console.log(validatePhoneNumber("9991234567"));         // false (10 цифр)
-console.log(validatePhoneNumber("8-999-123-45-678"));   // false (12 цифр)
+console.log(validatePhoneNumber("+7 9991234567")); // true (11 цифр)
+console.log(validatePhoneNumber("+7 999 123 45 67"));        // true (11 цифр)
+console.log(validatePhoneNumber("+7 999 999 99 9"));         // false (10 цифр)
+console.log(validatePhoneNumber("+7 999 999 99 999"));   // false (12 цифр)
   const handleOpen = useCallback(async () => {
     setOpen(true);
     setShowBadge(false);
