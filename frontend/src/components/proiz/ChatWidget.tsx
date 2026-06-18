@@ -119,7 +119,7 @@ const QUICK_CHIPS = [
   { label: 'Маршрутизатор ESR', text: 'Нужен маршрутизатор ESR' },
   { label: 'xPON ONT OLT', text: 'Интересует xPON ONT OLT' },
   { label: 'Wi-Fi', text: 'Нужны Wi-Fi точки доступа' },
-  { label: 'VoIP', text: 'Нужно VoIP оборудование' },
+  { label: 'VoIP', text: 'Нужен VoIP оборудования' },
 ];
 
 export default function ChatWidget() {
