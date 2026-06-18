@@ -123,8 +123,9 @@ async function tgSend(text: string) {
 
 const QUICK_CHIPS = [
   { label: 'Цены', text: 'Цены на коммутаторы?' },
-  { label: 'Каталог', text: 'Какое оборудование есть?' },
-  { label: 'GPON', text: 'Есть оборудование GPON?' },
+  { label: 'Коммутатор MES', text: 'Нужен коммутатор MES' },
+  { label: 'Маршрутизатор ESR', text: 'Нужен маршрутизатор ESR' },
+  { label: 'xPON ONT OLT', text: 'Интересует xPON ONT OLT' },
   { label: 'Wi-Fi', text: 'Нужны Wi-Fi точки доступа' },
 ];
 
@@ -282,11 +283,15 @@ export default function ChatWidget() {
       );
       setMessages((prev) => [
         ...prev.slice(0, -1),
-        {
+       {
           role: 'bot',
+<<<<<<< HEAD
           text: ok
             ? 'Менеджер уведомлён. Мы свяжемся с вами в ближайшее время.'
             : 'Напишите ваше имя и телефон , менеджер свяжется с Вами напрямую',
+=======
+          text: 'Оставьте номер телефона — менеджер перезвонит в ближайшее время.',
+>>>>>>> 1ac819958a017a57081ef56d591c30e8af7a724b
           time: nowTime(),
         },
       ]);
@@ -294,9 +299,13 @@ export default function ChatWidget() {
     } else {
       setMessages((prev) => [
         ...prev.slice(0, -1),
-        {
+         {
           role: 'bot',
+<<<<<<< HEAD
           text: 'Напишите ваше имя и телефон , менеджер свяжется с Вами в ближайшее время',
+=======
+          text: 'Оставьте номер телефона — менеджер перезвонит в ближайшее время.',
+>>>>>>> 1ac819958a017a57081ef56d591c30e8af7a724b
           time: nowTime(),
         },
       ]);
@@ -425,8 +434,8 @@ export default function ChatWidget() {
               </svg>
             </div>
             <div className={styles.cwPhoneBarText}>
-              <div className={styles.cwPhoneBarTitle}>Оставьте номер — перезвоним</div>
-              <div className={styles.cwPhoneBarSub}>Менеджер свяжется в течение 5 минут</div>
+              <div className={styles.cwPhoneBarTitle}>Оставьте номер телефона</div>
+              <div className={styles.cwPhoneBarSub}>Менеджер свяжется в ближайшее время.</div>
             </div>
             <div className={styles.cwPhoneBarArr}>›</div>
           </div>
