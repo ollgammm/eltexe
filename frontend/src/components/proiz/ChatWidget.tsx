@@ -144,7 +144,7 @@ export default function ChatWidget() {
       setMessages([
         {
           role: 'bot',
-          text: 'Здравствуйте.\n\nЯ AI-консультант Eltex. Отвечу на вопросы по коммутаторам, GPON, Wi-Fi и VoIP оборудованию.',
+          text: 'Здравствуйте.\n\nЯ AI-консультант Аида. Отвечу на вопросы по коммутаторам, GPON, Wi-Fi и VoIP оборудованию.',
           time: nowTime(),
         },
       ]);
@@ -578,7 +578,7 @@ export default function ChatWidget() {
               </svg>
             </div>
             <div className="cw-head-info">
-              <div className="cw-head-name">Eltex — Консультант</div>
+              <div className="cw-head-name">Аида — Консультант</div>
               <div className="cw-head-status">
                 <span className="cw-dot" />
                 <span>Онлайн</span>
