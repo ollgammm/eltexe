@@ -36,8 +36,11 @@ const tgMessage = `
  <b>Последний вопрос клиента:</b>
 "${text.trim()}"
 ────────────────────
- Менеджеры, срочно свяжитесь с клиентом!
 `;
+// Красивое форматирование для вывода в чат:
+const cleanNum = text.replace(/\D/g, ''); // получаем чистые 11 цифр (например, 87012345678)
+const formatted = `+7 (${cleanNum.slice(1, 4)}) ${cleanNum.slice(4, 7)}-${cleanNum.slice(7, 9)}-${cleanNum.slice(9, 11)}`;
+// Результат: +7 (701) 123-45-68
 
 // Отправляем в ваш ТГ-канал
 await tgSend(tgMessage);
@@ -204,39 +207,7 @@ export default function ChatWidget() {
     if (toastTimer.current) clearTimeout(toastTimer.current);
     toastTimer.current = setTimeout(() => setToast(null), 3000);
   }, []);
-/**
- * Проверяет, состоит ли номер телефона ровно из 11 цифр.
- * @param phone Строка с номером телефона от пользователя
- * @returns {boolean} true, если номер корректный, иначе false
- */
-function validatePhoneNumber(phone: string): boolean {
-  // 1. Удаляем все символы, кроме цифр
-  const cleaned = phone.replace(/\D/g, '');
 
-  // 2. Проверяем, что получилось ровно 11 цифр
-  return cleaned.length === 11;
-}
-
-// --- ПРИМЕР ИСПОЛЬЗОВАНИЯ В ИИ-КОНСУЛЬТАНТЕ ---
-
-function handleUserResponse(userInput: string): string {
-  if (validatePhoneNumber(userInput)) {
-    // Очищаем номер для сохранения в базу данных
-    const formattedPhone = userInput.replace(/\D/g, '');
-    
-    // Здесь логика сохранения в CRM или отправки менеджеру
-    return `Спасибо! Номер ${formattedPhone} принят. Наш менеджер свяжется с вами в ближайшее время.`;
-  } else {
-    // Если клиент ошибся
-    return "Пожалуйста, введите корректный номер телефона, состоящий из 11 цифр (например, +7 701 777 77 77).";
-  }
-}
-
-// Тесты для проверки:
-console.log(validatePhoneNumber("+7 9991234567")); // true (11 цифр)
-console.log(validatePhoneNumber("+7 999 123 45 67"));        // true (11 цифр)
-console.log(validatePhoneNumber("+7 999 999 99 9"));         // false (10 цифр)
-console.log(validatePhoneNumber("+7 999 999 99 999"));   // false (12 цифр)
   const handleOpen = useCallback(async () => {
     setOpen(true);
     setShowBadge(false);
