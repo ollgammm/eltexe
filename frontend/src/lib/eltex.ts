@@ -309,18 +309,18 @@ const dictionaries: Record<Locale, Dictionary> = {
       items: [
         {
           title: [
-            { text: 'Собственное', accent: false },
+            { text: 'Собственное ', accent: false },
             { text: 'производство', accent: false },
           ],
           text: [
             { text: 'Полный цикл производства ', accent: false },
             { text: 'г. Алматы, мкр Алатау, ', accent: false },
-            { text: 'ул. ', accent: true },
+            { text: 'ул. Гумилёва, 16', accent: true },
           ],
         },
         {
           title: [
-            { text: 'Выпускаемая', accent: false },
+            { text: 'Выпускаемая ', accent: false },
             { text: 'продукция', accent: false },
           ],
           text: [
