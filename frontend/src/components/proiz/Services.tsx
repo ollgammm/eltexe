@@ -166,6 +166,35 @@ const contentByLocale: Record<Locale, ServicesContent> = {
       { key: 'disposal', title: 'Warranty service' },
     ],
   },
+  uz: {
+    badge: 'Услуги',
+    titleStart: 'РЕШЕНИЯ',
+    titleAccent: 'ПОЛНОГО',
+    titleEnd: 'ЦИКЛА',
+    description:
+      'Предоставляем комплексные телекоммуникационные решения — от производства и поставки оборудования до обучения, технической,  гарантийной и постгарантийной поддержки.',
+    imageAlt: 'Услуги',
+    items: [
+      { number: '01', title: 'Контрактное производство (локализация номенклатуры)' },
+      { number: '02', title: 'Услуги по SMD и ТНТ монтажу плат' },
+      { number: '03', title: 'Услуги по аренде помещений' },
+      { number: '04', title: 'Услуги повехностного монтажа компонентов на плату' },
+      { number: '05', title: 'Услуги объеёмного (ручного) монтажа плат' },
+      { number: '06', title: '  ' },
+    ],
+    imageLabels: [
+      {
+        key: 'storage',
+        title: 'Собственное производство',
+        meta: 'г Алматы, мкр. Алатау, ул. Гумилёва, 16',
+      },
+      { key: 'customs', title: 'Контрактное производство' },
+      { key: 'packing', title: 'Ремонт и сервис оборудования' },
+      { key: 'serialization', title: 'Тестирование оборудования' },
+      { key: 'docs', title: 'Обучение и сертификация' },
+      { key: 'disposal', title: 'Гарантийное обслуживание' },
+    ],
+  },
 };
 
 export default function Services({ locale }: ServicesProps) {
