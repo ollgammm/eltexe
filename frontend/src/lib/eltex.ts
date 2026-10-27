@@ -1,7 +1,5 @@
-export type Locale = 'kk' | 'ru' | 'en';
 export type Locale = 'kk' | 'ru' | 'en' | 'uz';
 
-export const LOCALES: Locale[] = ['kk', 'ru', 'en'];
 export const LOCALES: Locale[] = ['kk', 'ru', 'en', 'uz'];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
