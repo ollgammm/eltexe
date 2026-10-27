@@ -269,7 +269,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       ],
     },
     about: {
-      badge: 'О КОМПАНИИbbbbb',
+      badge: 'О КОМПАНИИ.',
       title: 'ТЕЛЕКОММУНИКАЦИИ ДЛЯ',
       accentTitle: 'БИЗНЕСА',
       description:
