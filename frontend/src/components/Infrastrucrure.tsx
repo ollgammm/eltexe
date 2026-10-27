@@ -207,6 +207,65 @@ const contentByLocale: Record<Locale, InfrastructureContent> = {
       },
     ],
   },
+  uz: {
+    title: 'ИНФРАСТРУКТУРА',
+    accentTitle: 'ПРОИЗВОДСТВА',
+    description:
+      'Производственный комплекс ЭлтексАлатау спроектирован и построен в соответствии с международными стандартами качества. Каждый этап производства проходит многоуровневый контроль для обеспечения надёжности оборудования.',
+    backgroundAlt: 'Фон инфраструктуры',
+    imageAlt: 'Инфраструктура',
+    moreLabel: 'Подробнее',
+    items: [
+      {
+        img: '/infra/10.jpeg',
+        title: '',
+        value: 'ФИНАЛЬНАЯ СБОРКА',
+        text: '',
+        className: 'sm:col-span-1 xl:col-span-4 xl:row-span-2',
+      },
+      {
+        img: '/infra/12.jpeg',
+        title: 'ПРОИЗВОДСТВЕННАЯ ПЛОЩАДКА',
+        value: 'СЭЗ ПИТ «Алатау»',
+        text: 'г. Алматы, Казахстан',
+        className: 'sm:col-span-1 xl:col-span-4 xl:row-span-1',
+      },
+      {
+        img: '/infra/9.jpg',
+        title: 'ОПЫТ НА РЫНКЕ',
+        value: '12+',
+        text: 'лет производства оборудования',
+        className: 'sm:col-span-2 xl:col-span-4 xl:row-span-2',
+      },
+      {
+        img: '/infra/11.jpeg',
+        title: '',
+        value: 'МОНТАЖ ПЛАТ',
+        text: 'SMD и ТНТ',
+        className: 'sm:col-span-1 xl:col-span-4 xl:row-span-1',
+      },
+      {
+        img: '/infra/5.webp',
+        title: 'КОНТРОЛЬ КАЧЕСТВА',
+        value: '3 ступени',
+        text: 'многоуровневая система проверки',
+        className: 'sm:col-span-1 xl:col-span-4 xl:row-span-1',
+      },
+      {
+        img: '/infra/6.webp',
+        title: 'ОПЕРАТОРЫ НА ОБОРУДОВАНИИ',
+        value: '20+',
+        text: 'альтернативных провайдеров Казахстана',
+        className: 'sm:col-span-1 xl:col-span-4 xl:row-span-1',
+      },
+      {
+        img: '/infra/7.webp',
+        title: '',
+        text: '',
+        className: 'xl:col-span-4 xl:row-span-1',
+      },
+    ],
+  },
 };
 
 export default function Infrastructure({ locale }: InfrastructureProps) {

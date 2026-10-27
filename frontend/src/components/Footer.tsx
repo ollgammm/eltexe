@@ -46,6 +46,15 @@ const contentByLocale: Record<Locale, FooterContent> = {
     privacyPolicy: 'Privacy policy',
     userAgreement: 'User agreement',
   },
+  uz: {
+    description: 'Ваша ИТ-инфраструктура под нашим контролем',
+    navigationTitle: 'Навигация',
+    contactsTitle: 'Контакты',
+    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16',
+    copyright: '© 2026 ТОО "ЭлтексАлатау". Все права защищены.',
+    privacyPolicy: 'Политика конфиденциальности',
+    userAgreement: 'Пользовательское соглашение',
+  },
 };
 
 export default function Footer({ locale }: FooterProps) {
