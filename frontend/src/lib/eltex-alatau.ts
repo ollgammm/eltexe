@@ -98,7 +98,7 @@ type TranslationMap = {
 const dictionaries: Record<Locale, Dictionary> = {
   kk: {
     metadata: {
-      title: 'Eltex',
+      title: 'Eltex ',
       description:
         'Қазақстандық электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Eltex зауытының жалғыз ресми өкілі.',
     },
