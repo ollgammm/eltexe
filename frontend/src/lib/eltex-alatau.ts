@@ -1,4 +1,4 @@
-export type Locale = 'kk' | 'ru' | 'en';
+export type Locale = 'kk' | 'ru' | 'en' | 'uz';
 
 export const LOCALES: Locale[] = ['kk', 'ru', 'en'];
 
@@ -6,12 +6,14 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   kk: 'KK',
   ru: 'RU',
   en: 'EN',
+  uz: 'UZ',
 };
 
 export const LOCALE_NAMES: Record<Locale, string> = {
   kk: 'Қазақша',
   ru: 'Русский',
   en: 'English',
+  uz: 'O‘zbekcha',
 };
 
 export const DEFAULT_LOCALE: Locale = 'ru';
@@ -96,7 +98,7 @@ type TranslationMap = {
 const dictionaries: Record<Locale, Dictionary> = {
   kk: {
     metadata: {
-      title: 'ЭлтексАлатау',
+      title: 'Eltex',
       description:
         'Қазақстандық электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Eltex зауытының жалғыз ресми өкілі.',
     },
@@ -229,7 +231,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   ru: {
     metadata: {
-      title: 'ЭлтексАлатау',
+      title: 'Eltex.uz',
       description:
         'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },

@@ -97,7 +97,6 @@ type TranslationMap = {
 const dictionaries: Record<Locale, Dictionary> = {
   kk: {
     metadata: {
-      title: 'ЭлтексАлатау',
       description:
         'Қазақстандық электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Eltex зауытының жалғыз ресми өкілі.',
     },
@@ -230,7 +229,6 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   ru: {
     metadata: {
-      title: 'ЭлтексАлатау',
       description:
         'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },
