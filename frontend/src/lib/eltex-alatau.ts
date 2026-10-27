@@ -490,9 +490,9 @@ const dictionaries: Record<Locale, Dictionary> = {
       ],
     },
   },
-  _uz: {
+  uz: {
     metadata: {
-      title: 'Eltex.uz',
+      title: 'Eltex',
       description: 'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },
     proiz: {
@@ -613,12 +613,6 @@ const dictionaries: Record<Locale, Dictionary> = {
         { title: '6,1млн', text: 'VoIP портов' },
       ],
     },
-  },
-  get uz() {
-    return this._uz;
-  },
-  set uz(value) {
-    this._uz = value;
   },
 };
 
