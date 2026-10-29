@@ -55,8 +55,19 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     emailOneLabel: 'E-MAIL ',
     emailTwoLabel: 'E-MAIL 2',
   },
+  uz: {
+    imageAlt: 'Контакты',
+    badge: 'Контакты',
+    titleStart: 'Технологии и экспертиза',
+    titleEnd: 'для задач любого масштаба',
+    addressLabel: 'Адрес',
+    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16',
+    phoneOneLabel: 'Телефон',
+    phoneTwoLabel: 'Телефон 2',
+    emailOneLabel: 'Почта',
+    emailTwoLabel: '',
+},
 };
-
 export default function Contacts({ locale }: ContactsProps) {
   const content = contentByLocale[locale];
 
@@ -80,7 +91,7 @@ export default function Contacts({ locale }: ContactsProps) {
           <span className="text-xs text-gray-500">{content.phoneOneLabel}</span>
           <div className="flex gap-6">
             <a
-              href="tel:+79037181331"
+              href="tel:+77014673649"
               className="text-sm font-semibold text-black hover:text-[#353EEA] transition-colors">
               +7 701 467 3649
             </a>
@@ -100,9 +111,9 @@ export default function Contacts({ locale }: ContactsProps) {
           <div className="flex flex-col">
             <span className="text-xs text-gray-500 mb-1">{content.emailOneLabel}</span>
             <a
-              href="mailto:sergey.arutunov@htl.kz"
+              href="mailto:b2b@smartalatau.kz"
               className="text-sm font-semibold text-black underline hover:text-[#353EEA] transition-colors">
-              post@eltexalatau.kz
+              b2b@smartalatau.kz
             </a>
           </div>
         </div>
