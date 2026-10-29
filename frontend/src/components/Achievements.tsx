@@ -80,6 +80,27 @@ const contentByLocale: Record<Locale, AchievementsContent> = {
       },
     ],
   },
+ uz: {
+    title: 'Bizning yutuqlarimiz',
+    description: 'Raqamlar bilan\ntasdiqlangan\nishonchlilik.',
+    stats: [
+      {
+        value: '12+',
+        title: 'yil bozorda',
+        subtitle: 'Telekommunikatsiya uskunalari ishlab chiqarish',
+      },
+      {
+        value: '20+',
+        title: 'Qozog‘iston provayderlari',
+        subtitle: 'Bizning uskunalarimizda ishlaydi',
+      },
+      {
+        value: '3',
+        title: 'faoliyat yuritilayotgan davlat',
+        subtitle: 'Qozog‘iston, O‘zbekiston, Qirg‘iziston',
+      },
+    ],
+  }, 
 };
 
 export default function Achievements({ locale }: AchievementsProps) {

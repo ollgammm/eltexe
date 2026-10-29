@@ -46,6 +46,15 @@ const contentByLocale: Record<Locale, FooterContent> = {
     privacyPolicy: 'Privacy policy',
     userAgreement: 'User agreement',
   },
+    uz: {
+    description: 'Sizning IT-infratuzilmangiz bizning nazoratimizda',
+    navigationTitle: 'Navigatsiya',
+    contactsTitle: 'Kontaktlar',
+    address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16',
+    copyright: '© 2026 "EltexAlatau" MChJ. Barcha huquqlar himoyalangan.',
+    privacyPolicy: 'Maxfiylik siyosati',
+    userAgreement: 'Foydalanuvchi shartnomasi',
+  },
 };
 
 export default function Footer({ locale }: FooterProps) {

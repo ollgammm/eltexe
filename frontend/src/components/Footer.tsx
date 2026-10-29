@@ -47,13 +47,13 @@ const contentByLocale: Record<Locale, FooterContent> = {
     userAgreement: 'User agreement',
   },
   uz: {
-    description: 'Ваша ИТ-инфраструктура под нашим контролем',
-    navigationTitle: 'Навигация',
-    contactsTitle: 'Контакты',
-    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16',
-    copyright: '© 2026 ТОО "ЭлтексАлатау". Все права защищены.',
-    privacyPolicy: 'Политика конфиденциальности',
-    userAgreement: 'Пользовательское соглашение',
+    description: 'Sizning IT-infratuzilmangiz bizning nazoratimizda',
+    navigationTitle: 'Navigatsiya',
+    contactsTitle: 'Kontaktlar',
+    address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16',
+    copyright: '© 2026 "EltexAlatau" MChJ. Barcha huquqlar himoyalangan.',
+    privacyPolicy: 'Maxfiylik siyosati',
+    userAgreement: 'Foydalanuvchi shartnomasi',
   },
 };
 
