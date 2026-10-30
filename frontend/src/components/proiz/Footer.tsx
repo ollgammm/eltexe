@@ -118,9 +118,9 @@ export default function Footer({ locale }: FooterProps) {
 
               <div className="flex flex-col">
                 <a
-                  href="mailto:sergey.arutunov@htl.kz"
+                  href="mailto:b2b@smartalatau.kz"
                   className="text-sm  text-black underline transition-colors hover:text-[#353EEA]">
-                  post@eltexalatau.kz
+                  b2b@smartalatau.kz
                 </a>
               </div>
             </div>

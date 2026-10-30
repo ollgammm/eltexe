@@ -99,7 +99,7 @@ type TranslationMap = {
 const dictionaries: Record<Locale, Dictionary> = {
   kk: {
     metadata: {
-      title: 'Eltex.uz',
+      title: 'Eltex',
       description:
         'Қазақстандық электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Eltex зауытының жалғыз ресми өкілі.',
     },
@@ -232,7 +232,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   ru: {
     metadata: {
-      title: 'Eltex.uz',
+      title: 'Eltex',
       description:
         'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },
@@ -261,7 +261,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       items: [
         {
           title: 'Производство в Алматы',
-          text: 'г. Алматы, мкр. Алатау, ул. Гумилёва, 16 post@eltexalatau.kz',
+          text: 'г. Алматы, мкр. Алатау, ул. Гумилёва, 16 b2b@smartalatau.kz',
           img: '/hero/hero-icon1.webp',
         },
         {
@@ -360,7 +360,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   en: {
     metadata: {
-      title: 'EltexAlatau',
+      title: 'Eltex',
       description:
         'A Kazakhstani manufacturer of electronics and modern telecommunications equipment. The sole official representative of the Eltex factory in Kazakhstan.',
     },
@@ -493,7 +493,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   uz: {
     metadata: {
-      title: 'Eltex.uz',
+      title: 'Eltex',
       description:
         'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },
@@ -517,8 +517,8 @@ const dictionaries: Record<Locale, Dictionary> = {
     hero: {
       description:
         'Ваша IT - инфраструктура под нашим контролем. Тех. поддержка (русский, казахский), сроки поставки и пост гарантийная поддержка',
-      cta: 'Регистрация проекта --',
-      cta2: 'Оценить стоимость монтажа платы 345',
+      cta: 'Регистрация проекта -!-',
+      cta2: 'Оценить стоимость монтажа платы -!-',
       items: [
         {
           title: 'Склад в Алматы',

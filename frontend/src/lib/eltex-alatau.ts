@@ -359,7 +359,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   },
   en: {
     metadata: {
-      title: 'EltexAlatau',
+      title: 'Eltex',
       description:
         'A Kazakhstani manufacturer of electronics and modern telecommunications equipment. The sole official representative of the Eltex factory in Kazakhstan.',
     },
@@ -493,19 +493,19 @@ const dictionaries: Record<Locale, Dictionary> = {
   uz: {
     metadata: {
       title: 'Eltex',
-      description: 'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
+      description: 'Производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат в Алматы. Компания основана в 2012 году.',
     },
     proiz: {
-      badge: 'ПРОИЗВОДСТВО',
+      badge: 'ISHLAB CHIQARISH',
       link: 'Перейти',
     },
     header: {
       navLinks: [
-        { label: 'О компании' },
-        { label: 'Преимущества' },
-        { label: 'Услуги' },
-        { label: 'Контакты' },
-        { label: 'Производство' },
+        { label: 'Kompaniya haqida' },
+        { label: 'Afzalliklar' },
+        { label: 'Xizmatlar' },
+        { label: 'Aloqa' },
+        { label: 'Ishlab chiqarish' },
       ],
       requestCta: 'Оставить заявку',
       menuLabel: 'Меню',
