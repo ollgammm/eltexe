@@ -100,7 +100,7 @@ const dictionaries: Record<Locale, Dictionary> = {
     metadata: {
       title: 'Eltex',
       description:
-        'Қазақстандық электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Eltex зауытының жалғыз ресми өкілі.',
+        'Eltex Alatau — Алматыдағы қазақстандық телекоммуникациялық жабдық өндірушісі. Келісімшарттық өндіріс (локализация) және баспа платаларын SMD-монтаждау қызметтері. Компания 2012 жылы құрылған.',
     },
     proiz: {
       badge: 'ӨНДІРІС',
@@ -121,18 +121,18 @@ const dictionaries: Record<Locale, Dictionary> = {
     },
     hero: {
       description:
-        'ЭлтексАлатау — электроника және заманауи телекоммуникациялық жабдық өндірушісі. Қазақстандағы Новосибирск Элтекс зауытының жалғыз ресми өкілі. Компания 2012 жылы құрылған.',
-      cta: 'Монтаж құнын бағалау',
-      cta2: 'Жобаны тіркеу',
+        'Сіздің IT-инфрақұрылымыңыз біздің бақылауымызда. Техникалық қолдау (орыс, өзбек тілдері), жеткізу мерзімдері және кепілдіктен кейінгі қолдау.',
+      cta: 'Жобаны тіркеу',
+      cta2: 'Жобаны тіркеу ----',
       items: [
         {
-          title: 'Өндіріс Алматыда',
-          text: 'РК барлық аймақтарына жеткізу',
+          title: 'Ташкенттегі қойма',
+          text: 'Өзбекстан өңірлері бойынша жеткізу',
           img: '/hero/hero-icon1.webp',
         },
         {
           title: 'Компанияның ресурстары мен мүмкіндіктері:',
-          text: 'Техникалық қолдау (орыс, қазақ тілдерінде), жеткізу мерзімдері және кепілдіктен кейінгі қолдау',
+          text: 'Техникалық қолдау (орыс, өзбек тілдері), жеткізу мерзімдері және кепілдіктен кейінгі қолдау',
           img: '/hero/hero-icon2.webp',
         },
       ],
@@ -142,7 +142,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       title: 'БИЗНЕСКЕ АРНАЛҒАН',
       accentTitle: 'ТЕЛЕКОММУНИКАЦИЯ',
       description:
-        'ЭлтексАлатау — операторлық деңгейдегі электроника және телекоммуникациялық жабдық өндірушісі. 12 жыл жұмыс барысында біздің жабдықтар Қазақстан, Өзбекстан және Қырғызстанның ірі операторлары желілерінде орнатылды.',
+        'EltexAlatau — операторлық деңгейдегі электроника және телекоммуникациялық жабдық өндірушісі. 12 жыл жұмыс барысында біздің жабдықтар Қазақстан, Өзбекстан және Қырғызстанның ірі операторлары желілерінде орнатылды.',
       cta: 'Компания туралы толығырақ',
       btn: 'Презентация',
       items: [
@@ -222,7 +222,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'нарықта жыл' },
+        { title: '15', text: 'нарықта жыл' },
         { title: '4,5млн+', text: 'Ethernet портов' },
         { title: '12млн', text: 'PON OLT портов' },
         { title: '6,1млн', text: 'VoIP портов' },
@@ -233,7 +233,7 @@ const dictionaries: Record<Locale, Dictionary> = {
     metadata: {
       title: 'Eltex',
       description:
-        'Казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
+        'EltexALatau - казахстанский производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат. Компания основана в 2012 году.',
     },
     proiz: {
       badge: 'ПРОИЗВОДСТВО',
@@ -254,18 +254,18 @@ const dictionaries: Record<Locale, Dictionary> = {
     },
     hero: {
       description:
-        'Ваша IT - инфраструктура под нашим контролем. Тех. поддержка (русский, казахский), сроки поставки и пост гарантийная поддержка',
-      cta: 'Регистрация проекта --',
-      cta2: 'Оценить стоимость монтажа платы --- это страница решений',
+        'Ваша IT - инфраструктура под нашим контролем. Тех. поддержка (русский, узбекский ), сроки поставки и пост гарантийная поддержка',
+      cta: 'Регистрация проекта', 
+      cta2: 'Оценить стоимость монтажа платы --- это страница решений!!!!!!!!',
       items: [
         {
-          title: 'Склад в Алматы',
-          text: 'Доставка по регионам РК',
+          title: 'Склад в Ташкенте',
+          text: 'Доставка по регионам Узбекистана',
           img: '/hero/hero-icon1.webp',
         },
         {
           title: 'Ресурсы и возможности компании:',
-          text: 'Тех. поддержка (русский, казахский), сроки поставки и пост гарантийная поддержка',
+          text: 'Тех. поддержка (русский, узбекский), сроки поставки и пост гарантийная поддержка',
           img: '/hero/hero-icon2.webp',
         },
       ],
@@ -275,7 +275,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       title: 'ТЕЛЕКОММУНИКАЦИИ ДЛЯ',
       accentTitle: 'БИЗНЕСА',
       description:
-        'ЭлтексАлатау — казахстанский производитель электроники и телекоммуникационного оборудования операторского уровня. За 12 лет работы наше оборудование установлено на сетях крупнейших операторов Казахстана, Узбекистана и Кыргызстана.',
+        'EltexALatau — казахстанский производитель электроники и телекоммуникационного оборудования операторского уровня. За 12 лет работы наше оборудование установлено на сетях крупнейших операторов Казахстана, Узбекистана и Кыргызстана.',
       cta: 'Подробнее о компании',
       btn: 'Презентация',
       items: [
@@ -286,7 +286,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
         {
           title: 'Официальный представитель',
-          text: 'Единственный официальный партнёр завода Eltex в Казахстане',
+          text: 'Единственный официальный партнёр завода Eltex в Узбекистане',
           icon: '/about/about2.svg',
         },
         {
@@ -296,7 +296,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
         {
           title: 'Господдержка',
-          text: 'Работаем с АО «Самрук-Қазына», МОН РК и другими госструктурами',
+          text: 'Работаем с госструктурами',
           icon: '/about/about4.svg',
         },
       ],
@@ -350,7 +350,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'лет на рынке' },
+        { title: '15', text: 'лет на рынке' },
         { title: '4,5млн+', text: 'Ethernet портов' },
         { title: '12млн', text: 'PON OLT портов' },
         { title: '6,1млн', text: 'VoIP портов' },
@@ -483,7 +483,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'years in the market' },
+        { title: '15', text: 'years in the market' },
         { title: '4,5M+', text: 'Ethernet ports' },
         { title: '12M+', text: 'PON OLT ports' },
         { title: '6,1M+', text: 'VoIP ports' },
@@ -493,11 +493,11 @@ const dictionaries: Record<Locale, Dictionary> = {
   uz: {
     metadata: {
       title: 'Eltex',
-      description: 'Производитель телекоммуникационного оборудования в Алматы. Контрактное производство (локализация) и услуги SMD-монтажа плат в Алматы. Компания основана в 2012 году.',
+      description: 'Eltex Alatau — Almatidagi qozogʻistonlik telekommunikatsiya uskunalari ishlab chiqaruvchisi. Shartnoma asosidagi ishlab chiqarish (lokalizatsiya) va platalarni SMD-montaj qilish xizmatlari. Kompaniya 2012-yilda tashkil etilgan.',
     },
     proiz: {
       badge: 'ISHLAB CHIQARISH',
-      link: 'Перейти',
+      link: 'Oʻtish',
     },
     header: {
       navLinks: [
@@ -507,110 +507,111 @@ const dictionaries: Record<Locale, Dictionary> = {
         { label: 'Aloqa' },
         { label: 'Ishlab chiqarish' },
       ],
-      requestCta: 'Оставить заявку',
-      menuLabel: 'Меню',
-      closeLabel: 'Закрыть',
-      switchLocaleLabel: 'Сменить язык',
+     requestCta: 'Ariza qoldirish',
+     menuLabel: 'Menyu',
+     closeLabel: 'Yopish',
+     switchLocaleLabel: 'Tilni oʻzgartirish',
     },
     hero: {
-      description: 'Ваша IT - инфраструктура под нашим контролем. Тех. поддержка (русский, казахский), сроки поставки и пост гарантийная поддержка',
-      cta: 'Регистрация проекта --',
-      cta2: 'Оценить стоимость монтажа платы 345',
+      description: 'Sizning IT-infratuzilmangiz bizning nazoratimiz ostida. Texnik qoʻllab-quvvatlash (rus, oʻzbek tillarida), yetkazib berish muddatlari va kafolatdan keyingi xizmat koʻrsatish',
+      cta: 'Loyihani roʻyxatdan oʻtkazish',
+      cta2: 'Plata montaji narxini baholash',
       items: [
         {
-          title: 'Склад в Алматы',
-          text: 'Доставка по регионам РК',
+          title: 'Toshkentdagi omborы',
+          text: 'Oʻzbekiston hududlari boʻylab yetkazib berish',
           img: '/hero/hero-icon1.webp',
         },
         {
-          title: 'Ресурсы и возможности компании:',
-          text: 'Тех. поддержка (русский, казахский), сроки поставки и пост гарантийная поддержка',
+          title: 'Kompaniyaning resurslari va imkoniyatlari:',
+          text: 'Texnik qoʻllab-quvvatlash (rus, oʻzbek tillarida), yetkazib berish muddatlari va kafolatdan keyingi xizmat koʻrsatish',
           img: '/hero/hero-icon2.webp',
         },
       ],
     },
     about: {
-      badge: 'О КОМПАНИИ.',
-      title: 'ТЕЛЕКОММУНИКАЦИИ ДЛЯ',
-      accentTitle: 'БИЗНЕСА',
-      description: 'ЭлтексАлатау — казахстанский производитель электроники и телекоммуникационного оборудования операторского уровня. За 12 лет работы наше оборудование установлено на сетях крупнейших операторов Казахстана, Узбекистана и Кыргызстана.',
-      cta: 'Подробнее о компании',
-      btn: 'Презентация',
+      badge: 'KOMPANIYA HAQIDA',
+      title: 'TELEKOMMUNIKATSIYALAR',
+      accentTitle: 'BIZNES UCHUN',
+      description:
+    'Eltex Alatau — elektronika va operator darajasidagi telekommunikatsiya uskunalarining qozogʻistonlik ishlab chiqaruvchisi. 12 yillik faoliyat davomida bizning uskunalarimiz Qozogʻiston, Oʻzbekiston va Qirgʻizistonning yirik operatorlari tarmoqlariga oʻrnatilgan.',
+      cta: 'Kompaniya haqida batafsil',
+      btn: 'Taqdimot',
       items: [
         {
-          title: 'Контроль качества',
-          text: '3-х ступенчатая система контроля качества производства',
+          title: 'Sifat nazorati',
+          text: 'Ishlab chiqarish sifatini nazorat qilishning 3 bosqichli tizimi',
           icon: '/about/about1.svg',
         },
         {
-          title: 'Официальный представитель',
-          text: 'Единственный официальный партнёр завода Eltex в Казахстане',
+          title: 'Rasmiy vakil',
+      text: 'Eltex zavodining Oʻzbekistondagi yagona rasmiy hamkori',
           icon: '/about/about2.svg',
         },
         {
-          title: 'Локальное производство',
-          text: 'Производственный комплекс на территории СЭЗ ПИТ «Алатау» в Алматы',
+          title: 'Mahalliy ishlab chiqarish',
+      text: 'Almatidagi «Alatau» innovatsion texnologiyalar parki MIZ hududidagi ishlab chiqarish majmuasi',
           icon: '/about/about3.svg',
         },
         {
-          title: 'Господдержка',
-          text: 'Работаем с АО «Самрук-Қазына», МОН РК и другими госструктурами',
+          title: 'Davlat qoʻllab-quvvatlovi',
+           text: 'Davlat tuzilmalari bilan ishlaymiz',
           icon: '/about/about4.svg',
         },
       ],
     },
     advantages: {
-      badge: 'ПРЕИМУЩЕСТВА',
-      title: 'ИНТЕГРАТОРАМ. ОПЕРАТОРАМ СВЯЗИ.',
-      accentTitle: 'КОРПОРАТИВНЫМ и ГОС. ЗАКАЗЧИКАМ.',
-      description: 'Ищете замену по брендам на проект? - Бесплатное тестирование с демонстрацией комплексных решений от Eltex. Технологии: xPON, ЦОД, Сети доступа и агрегации, Wi-Fi, IP ATC, VoIP телефония, видеокамеры и видеоаналитика. Сегодня сети начинаются с Eltex.',
-      items: [
+      badge: 'AFZALLIKLAR',
+      title: 'INTEGRATORLAR UCHUN. ALOQA OPERATORLARI UCHUN.',
+      accentTitle: 'KORPORATIV VA DAVLAT BUYURTMACHILARI UCHUN.',
+description: 'Loyiha uchun brendlarga muqobil qidiryapsizmi? - Eltex kompleks yechimlarini namoyish qilgan holda bepul sinov. Texnologiyalar: xPON, maʼlumotlarni qayta ishlash markazlari (DATA-markaz), Access va agregatsiya tarmoqlari, Wi-Fi, IP-ATS, VoIP telefoniya, videokameralar va videoanalitika. Bugun tarmoqlar Eltex bilan boshlanadi.',
+items: [
         {
           title: [
-            { text: 'Партнерская ', accent: false },
-            { text: 'программа', accent: false },
-          ],
-          text: [
-            { text: 'Привилегии для партнеров Eltex. ', accent: false },
-            { text: 'Возможность стать ', accent: false },
-            { text: 'Авторизированным партнером', accent: true },
-          ],
-        },
-        {
-          title: [
-            { text: 'Академия ', accent: false },
-            { text: 'Eltex', accent: false },
-          ],
-          text: [
-            { text: 'Обучение в групах ', accent: false },
-            { text: 'по направлениям MES ESR VoIP WI-FI ', accent: true },
-            { text: 'Аттестация и сертификация', accent: false },
-          ],
-        },
-        {
-          title: [
-            { text: 'Техническая и  ', accent: false },
-            { text: 'постграйтийная поддержка', accent: false },
-          ],
-          text: [
-            { text: 'Стандартная 8/5 (казахский, русский) ', accent: false },
-            { text: 'постгарантийное сервисное обслуживание', accent: true },
-          ],
-        },
-        {
-          title: [{ text: 'Сетификация ', accent: true }],
-          text: [
-            { text: 'СТ-1 ', accent: false },
-            { text: 'Выпистка с реестра КТП ', accent: false },
-            { text: 'Сертификат инф. безопасности', accent: false },
-          ],
-        },
-      ],
+      { text: 'Hamkorlik ', accent: false },
+      { text: 'dasturi', accent: false },
+    ],
+    text: [
+      { text: 'Eltex hamkorlari uchun imtiyozlar. ', accent: false },
+      { text: 'Quyidagi maqomga ega boʻlish imkoniyati: ', accent: false },
+      { text: 'Avtorizatsiyalangan hamkor', accent: true },
+    ],
+  },
+  {
+    title: [
+      { text: 'Eltex ', accent: false },
+      { text: 'akademiyasi', accent: false },
+    ],
+    text: [
+      { text: 'Guruhlarda oʻqitish ', accent: false },
+      { text: 'MES ESR VoIP WI-FI yoʻnalishlari boʻyicha ', accent: true },
+      { text: 'Attestatsiya va sertifikatlash', accent: false },
+    ],
+  },
+  {
+    title: [
+      { text: 'Texnik va ', accent: false },
+      { text: 'kafolatdan keyingi qoʻllab-quvvatlash', accent: false },
+    ],
+    text: [
+      { text: 'Standart 8/5 (qozoq, rus tillarida) ', accent: false },
+      { text: 'kafolatdan keyingi servis xizmati', accent: true },
+    ],
+  },
+  {
+    title: [{ text: 'Sertifikatlar ', accent: true }],
+    text: [
+      { text: 'ST-1 ', accent: false },
+      { text: 'KTP reyestridan koʻchirma ', accent: false },
+      { text: 'Axborot xavfsizligi sertifikati', accent: false },
+    ],
+  },
+],
       stats: [
-        { title: '14+', text: 'лет на рынке' },
-        { title: '4,5млн+', text: 'Ethernet портов' },
-        { title: '12млн', text: 'PON OLT портов' },
-        { title: '6,1млн', text: 'VoIP портов' },
+        { title: '15', text: 'yil bozorda' },
+        { title: '4,5mln+', text: 'Ethernet portlari' },
+  { title: '12mln', text: 'PON OLT portlari' },
+  { title: '6,1mln', text: 'VoIP portlari' },
       ],
     },
   },
