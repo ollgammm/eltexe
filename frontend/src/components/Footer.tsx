@@ -112,7 +112,8 @@ export default function Footer({ locale }: FooterProps) {
                 <a
                   href="tel:+77014673649"
                   className="text-sm  text-black transition-colors hover:text-[#353EEA]">
-                  +7 701 467 3649, +998 55 502 55 55
+                  +7 701 467 3649, 
+                  +998 55 502 55 55
                 </a>
               </div>
 
