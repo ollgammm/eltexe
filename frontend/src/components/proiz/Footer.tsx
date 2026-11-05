@@ -23,8 +23,8 @@ const contentByLocale: Record<Locale, FooterContent> = {
     description: 'Сіздің АТ-инфрақұрылымыңыз біздің бақылауымызда',
     navigationTitle: 'Навигация',
     contactsTitle: 'Байланыс',
-    address: 'Алматы қ., Алатау ш/а, Гумилев көш., 16',
-    copyright: '© 2026 ЖШС "ЭлтексАлатау". Барлық құқықтар қорғалған.',
+    address: 'Алматы қ., Алатау ш/а, Гумилев көш., 16 , Ташкент қ., Юнусабад ауданы, Ифтихор көшесі, 1Б',
+    copyright: '© 2026 ЖШС "SMART ALATAU (СМАРТ АЛАТАУ)". Барлық құқықтар қорғалған.',
     privacyPolicy: 'Құпиялылық саясаты',
     userAgreement: 'Пайдаланушы келісімі',
   },
@@ -32,8 +32,8 @@ const contentByLocale: Record<Locale, FooterContent> = {
     description: 'Ваша ИТ-инфраструктура под нашим контролем',
     navigationTitle: 'Навигация',
     contactsTitle: 'Контакты',
-    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16',
-    copyright: '© 2026 ТОО "ЭлтексАлатау". Все права защищены.',
+    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16, г.Ташкент, Юнусабадский район, ул.Ифтихор 1Б',
+    copyright: '© 2026 ТОО "SMART ALATAU (СМАРТ АЛАТАУ)". Все права защищены.',
     privacyPolicy: 'Политика конфиденциальности',
     userAgreement: 'Пользовательское соглашение',
   },
@@ -41,8 +41,8 @@ const contentByLocale: Record<Locale, FooterContent> = {
     description: 'Your IT infrastructure under our control',
     navigationTitle: 'Navigation',
     contactsTitle: 'Contacts',
-    address: 'Almaty, Alatau district, 16 Gumilev St.',
-    copyright: '© 2026 EltexAlatau LLP. All rights reserved.',
+    address: 'Almaty, Alatau district, 16 Gumilev St., 1B Iftikhor Street, Yunusabad District, Tashkent',
+    copyright: '© 2026 "SMART ALATAU (СМАРТ АЛАТАУ)" LLP. All rights reserved.',
     privacyPolicy: 'Privacy policy',
     userAgreement: 'User agreement',
   },
@@ -50,8 +50,8 @@ const contentByLocale: Record<Locale, FooterContent> = {
     description: 'Sizning IT-infratuzilmangiz bizning nazoratimizda',
     navigationTitle: 'Navigatsiya',
     contactsTitle: 'Kontaktlar',
-    address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16',
-    copyright: '© 2026 "EltexAlatau" MChJ. Barcha huquqlar himoyalangan.',
+    address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16, Toshkent sh., Yunusobod tumani, Iftixor koʻchasi, 1B',
+    copyright: '© 2026 "SMART ALATAU (СМАРТ АЛАТАУ)" MChJ. Barcha huquqlar himoyalangan.',
     privacyPolicy: 'Maxfiylik siyosati',
     userAgreement: 'Foydalanuvchi shartnomasi',
   },
@@ -110,9 +110,9 @@ export default function Footer({ locale }: FooterProps) {
 
               <div className="flex flex-col">
                 <a
-                  href="tel:+79037181331"
+                  href="tel:+77014673649"
                   className="text-sm  text-black transition-colors hover:text-[#353EEA]">
-                  +7 701 467 3649
+                  +7 701 467 3649, +998 55 502 55 55
                 </a>
               </div>
 

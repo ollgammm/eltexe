@@ -25,7 +25,7 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     titleStart: 'Әрдайым байланыстамыз.',
     titleEnd: 'Ынтымақтастыққа дайынбыз',
     addressLabel: 'Мекенжай',
-    address: 'Алматы қ., Алатау ш/а, Гумилев көш., 16',
+    address: 'Ташкент қ., Юнусабад ауданы, Ифтихор көшесі, 1Б',
     phoneOneLabel: 'Телефон',
     phoneTwoLabel: 'Телефон 2',
     emailOneLabel: 'E-MAIL',
@@ -37,7 +37,7 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     titleStart: 'Технологии и экспертиза',
     titleEnd: 'для задач любого масштаба',
     addressLabel: 'Адрес',
-    address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16',
+    address: 'г.Ташкент, Юнусабадский район, ул.Ифтихор 1Б',
     phoneOneLabel: 'Телефон',
     phoneTwoLabel: 'Телефон 2',
     emailOneLabel: 'Почта',
@@ -49,7 +49,7 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     titleStart: 'Always in touch.',
     titleEnd: 'Ready to cooperate',
     addressLabel: 'Address',
-    address: 'Almaty, Alatau district, 16 Gumilev St.',
+    address: '1B Iftikhor Street, Yunusabad District, Tashkent',
     phoneOneLabel: 'Phone',
     phoneTwoLabel: 'Phone 2',
     emailOneLabel: 'E-MAIL ',
@@ -61,7 +61,7 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     titleStart: 'Texnologiyalar va tajriba',
     titleEnd: 'har qanday miqyosdagi vazifalar uchun',
     addressLabel: 'Manzil',
-    address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16',
+    address: 'Toshkent sh., Yunusobod tumani, Iftixor koʻchasi, 1B',
     phoneOneLabel: 'Telefon',
     phoneTwoLabel: 'Telefon 2',
     emailOneLabel: 'Pochta',
@@ -93,7 +93,7 @@ export default function Contacts({ locale }: ContactsProps) {
             <a
               href="tel:+77014673649"
               className="text-sm font-semibold text-black hover:text-[#353EEA] transition-colors">
-              +7 701 467 3649
+              +7 701 467 3649 , +998 55 502 55 55
             </a>
 
             <a

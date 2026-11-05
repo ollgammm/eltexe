@@ -22,13 +22,13 @@ const contentByLocale: Record<Locale, AchievementsContent> = {
     description: 'Сандармен\nдәлелденген\nсенімділік.',
     stats: [
       {
-        value: '12+',
+        value: '15',
         title: 'жыл нарықта',
         subtitle: 'Телекоммуникациялық жабдық өндірісі',
       },
       {
         value: '20+',
-        title: 'Қазақстан провайдерлері',
+        title: 'Орталық Азия бойынша провайдерлер',
         subtitle: 'Біздің жабдықта жұмыс істейді',
       },
       {
@@ -43,13 +43,13 @@ const contentByLocale: Record<Locale, AchievementsContent> = {
     description: 'Надежность,\nподтвержденная\nцифрами.',
     stats: [
       {
-        value: '12+',
+        value: '15',
         title: 'лет на рынке',
         subtitle: 'Производство телекоммуникационного оборудования',
       },
       {
         value: '20+',
-        title: 'провайдеров Казахстана',
+        title: 'провайдеров по Средней Азии',
         subtitle: 'Работают на нашем оборудовании',
       },
       {
@@ -64,13 +64,13 @@ const contentByLocale: Record<Locale, AchievementsContent> = {
     description: 'Reliability\nconfirmed\nby figures.',
     stats: [
       {
-        value: '12+',
+        value: '15',
         title: 'years on the market',
         subtitle: 'Telecommunications equipment manufacturing',
       },
       {
         value: '20+',
-        title: 'providers in Kazakhstan',
+        title: 'Providers across Central Asian',
         subtitle: 'Operating on our equipment',
       },
       {
@@ -85,13 +85,13 @@ const contentByLocale: Record<Locale, AchievementsContent> = {
     description: 'Raqamlar bilan\ntasdiqlangan\nishonchlilik.',
     stats: [
       {
-        value: '12+',
+        value: '15',
         title: 'yil bozorda',
         subtitle: 'Telekommunikatsiya uskunalari ishlab chiqarish',
       },
       {
         value: '20+',
-        title: 'Qozog‘iston provayderlari',
+        title: 'QMarkaziy Osiyo boʻyicha provayderlar',
         subtitle: 'Bizning uskunalarimizda ishlaydi',
       },
       {
