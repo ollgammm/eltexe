@@ -94,7 +94,8 @@ export default function Contacts({ locale }: ContactsProps) {
             <a
               href="tel:+77014673649"
               className="text-sm font-semibold text-black hover:text-[#353EEA] transition-colors">
-              +7 701 467 3649, +998 55 502 55 55
+              +7 701 467 3649, 
+              +998 55 502 55 55
             </a>
 
             <a
