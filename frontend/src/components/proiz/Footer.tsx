@@ -24,7 +24,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
     navigationTitle: 'Навигация',
     contactsTitle: 'Байланыс',
     address: 'Ташкент қ., Юнусабад ауданы, Ифтихор көшесі, 1Б',
-    copyright: '© 2026 ЖШС "SMART ALATAU (СМАРТ АЛАТАУ)". Барлық құқықтар қорғалған.',
+    copyright: '© 2026 ЖШС "Элтекс Алатау". Барлық құқықтар қорғалған.',
     privacyPolicy: 'Құпиялылық саясаты',
     userAgreement: 'Пайдаланушы келісімі',
   },
@@ -33,7 +33,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
     navigationTitle: 'Навигация',
     contactsTitle: 'Контакты',
     address: 'г.Ташкент, Юнусабадский район, ул.Ифтихор 1Б',
-    copyright: '© 2026 ТОО "SMART ALATAU (СМАРТ АЛАТАУ)". Все права защищены.',
+    copyright: '© 2026 ТОО "Элтекс Алатау". Все права защищены.',
     privacyPolicy: 'Политика конфиденциальности',
     userAgreement: 'Пользовательское соглашение',
   },
@@ -42,7 +42,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
     navigationTitle: 'Navigation',
     contactsTitle: 'Contacts',
     address: '1B Iftikhor Street, Yunusabad District, Tashkent',
-    copyright: '© 2026 "SMART ALATAU (СМАРТ АЛАТАУ)" LLP. All rights reserved.',
+    copyright: '© 2026 "Eltex Alatau" LLP. All rights reserved.',
     privacyPolicy: 'Privacy policy',
     userAgreement: 'User agreement',
   },
@@ -51,7 +51,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
     navigationTitle: 'Navigatsiya',
     contactsTitle: 'Kontaktlar',
     address: 'Toshkent sh., Yunusobod tumani, Iftixor koʻchasi, 1B',
-    copyright: '© 2026 "SMART ALATAU (СМАРТ АЛАТАУ)" MChJ. Barcha huquqlar himoyalangan.',
+    copyright: '© 2026 "Eltex Alatau" MChJ. Barcha huquqlar himoyalangan.',
     privacyPolicy: 'Maxfiylik siyosati',
     userAgreement: 'Foydalanuvchi shartnomasi',
   },
@@ -119,9 +119,9 @@ export default function Footer({ locale }: FooterProps) {
 
               <div className="flex flex-col">
                 <a
-                  href="mailto:b2b@smartalatau.kz"
+                  href="mailto:post@eltextalatau.kz"
                   className="text-sm  text-black underline transition-colors hover:text-[#353EEA]">
-                  b2b@smartalatau.kz
+                  post@eltextalatau.kz
                 </a>
               </div>
             </div>
