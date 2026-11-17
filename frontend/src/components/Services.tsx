@@ -163,32 +163,32 @@ const contentByLocale: Record<Locale, ServicesContent> = {
     ],
   },
   uz: {
-    badge: 'Услуги',
-    titleStart: 'РЕШЕНИЯ',
-    titleAccent: 'ПОЛНОГО',
-    titleEnd: 'ЦИКЛА',
-    description:
-      'Предоставляем комплексные телекоммуникационные решения — от производства и поставки оборудования до обучения, технической,  гарантийной и постгарантийной поддержки.',
-    imageAlt: 'Услуги',
-    items: [
-      { number: '01', title: 'Контрактное производство (локализация номенклатуры)' },
-      { number: '02', title: 'Услуги по SMD и ТНТ монтажу плат' },
-      { number: '03', title: 'Услуги по аренде помещений' },
-      { number: '04', title: 'Услуги повехностного монтажа компонентов на плату' },
-      { number: '05', title: 'Услуги объеёмного (ручного) монтажа плат' },
-      { number: '06', title: '  ' },
-    ],
-    imageLabels: [
-      {
-        key: 'storage',
-        title: 'Собственное производство',
-        meta: 'г Алматы, мкр. Алатау, ул. Гумилёва, 16',
-      },
-      { key: 'customs', title: 'Контрактное производство' },
-      { key: 'packing', title: 'Ремонт и сервис оборудования' },
-      { key: 'serialization', title: 'Тестирование оборудования' },
-      { key: 'docs', title: 'Обучение и сертификация' },
-      { key: 'disposal', title: 'Гарантийное обслуживание' },
+    badge: 'Xizmatlar',
+titleStart: 'TOʻLIQ',
+titleAccent: 'TSIKLLI',
+titleEnd: 'YECHIMLAR',
+description:
+  'Biz kompleks telekommunikatsiya yechimlarini taklif etamiz — uskunalarni ishlab chiqarish va yetkazib berishdan tortib, oʻqitish, texnik, kafolat va kafolatdan keyingi qoʻllab-quvvatlashgacha.',
+imageAlt: 'Xizmatlar',
+items: [
+  { number: '01', title: 'Shartnoma asosidagi ishlab chiqarish (nomenklaturani lokalizatsiya qilish)' },
+  { number: '02', title: 'Platalarni SMD va THT montaj qilish xizmatlari' },
+  { number: '03', title: 'Binolarni ijaraga berish xizmatlari' },
+  { number: '04', title: 'Komponentlarni plataga yuzaviy montaj qilish xizmatlari' },
+  { number: '05', title: 'Platalarni hajmiy (qoʻlda) montaj qilish xizmatlari' },
+  { number: '06', title: '  ' },
+],
+imageLabels: [
+  {
+    key: 'storage',
+    title: 'Oʻz ishlab chiqarishimiz',
+    meta: 'Almati sh., Alatau mkr., Gumilyov koʻchasi, 16',
+  },
+  { key: 'customs', title: 'Shartnoma asosidagi ishlab chiqarish' },
+  { key: 'packing', title: 'Uskunalarni taʼmirlash va servis xizmati' },
+  { key: 'serialization', title: 'Uskunalarni sinovdan oʻtkazish' },
+  { key: 'docs', title: 'Oʻqitish va sertifikatlash' },
+  { key: 'disposal', title: 'Kafolat xizmati' },
     ],
   },
 };

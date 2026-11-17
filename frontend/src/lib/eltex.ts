@@ -223,7 +223,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'нарықта жыл' },
+        { title: '15', text: 'нарықта жыл' },
         { title: '4,5млн+', text: 'Ethernet портов' },
         { title: '12млн', text: 'PON OLT портов' },
         { title: '6,1млн', text: 'VoIP портов' },
@@ -351,7 +351,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'лет на рынке' },
+        { title: '15', text: 'лет на рынке' },
         { title: '1млн+', text: 'произведенной продукции' },
         { title: '50+', text: 'видов номенклатуры' },
         { title: '70+', text: 'довольных заказчиков' },
@@ -484,7 +484,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'years in the market' },
+        { title: '15', text: 'years in the market' },
         { title: '4,5M+', text: 'Ethernet ports' },
         { title: '12M+', text: 'PON OLT ports' },
         { title: '6,1M+', text: 'VoIP ports' },
@@ -612,7 +612,7 @@ const dictionaries: Record<Locale, Dictionary> = {
         },
       ],
       stats: [
-        { title: '14+', text: 'лет на рынке' },
+        { title: '15', text: 'лет на рынке' },
         { title: '4,5млн+', text: 'Ethernet портов' },
         { title: '12млн', text: 'PON OLT портов' },
         { title: '6,1млн', text: 'VoIP портов' },
