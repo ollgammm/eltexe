@@ -80,33 +80,30 @@ const serviceImageLabelStyles: Record<ServiceImageLabelKey, { icon: IconType; cl
 const contentByLocale: Record<Locale, ServicesContent> = {
   kk: {
     badge: 'Қызметтер',
-    titleStart: 'ТОЛЫҚ',
-    titleAccent: 'ЦИКЛДІ',
-    titleEnd: 'ШЕШІМДЕР',
-    description:
-      'Жабдықты өндіру мен жеткізуден бастап оқыту, техникалық, кепілдіктік және кепілдіктен кейінгі қолдауға дейінгі кешенді телекоммуникациялық шешімдер ұсынамыз.',
-    imageAlt: 'Қызметтер',
-    items: [
-      {
-        number: '01',
-        title: 'Келісімшарттық өндіріс және SMD және THT тақталарын монтаждау қызметтері',
-      },
-      { number: '02', title: 'Eltex жабдығын сынақтан өткізу үшін жабдық беру' },
-      { number: '03', title: 'Eltex жабдығын жөндеу және сервистік қызмет көрсету' },
-      {
-        number: '04',
-        title: '"Eltex Академиясында" инженерлерді оқыту бағдарламалары және сертификаттау',
-      },
-      { number: '05', title: 'Техникалық мамандықтардағы студенттерге арналған тәжірибе' },
-      { number: '06', title: 'Орыс және қазақ тілдерінде техникалық қолдау' },
-    ],
-    imageLabels: [
-      { key: 'storage', title: 'Өз өндірісіміз', meta: '«Алатау» АИП ЕЭА' },
-      { key: 'customs', title: 'Келісімшарттық өндіріс' },
-      { key: 'packing', title: 'Жабдықты жөндеу және сервис' },
-      { key: 'serialization', title: 'Жабдықты тестілеу' },
-      { key: 'docs', title: 'Оқыту және сертификаттау' },
-      { key: 'disposal', title: 'Кепілдікті қызмет көрсету' },
+titleStart: 'ТОЛЫҚ',
+titleAccent: 'ЦИКЛДІ',
+titleEnd: 'ШЕШІМДЕР',
+description:
+  'Біз кешенді телекоммуникациялық шешімдерді ұсынамыз — жабдықты өндіру мен жеткізуден бастап оқытуға, техникалық, кепілдік және кепілдіктен кейінгі қолдауға дейін.',
+imageAlt: 'Қызметтер',
+items: [
+  { number: '01', title: 'Келісімшарттық өндіріс (номенклатураны локализациялау)' },
+  { number: '02', title: 'Платаларды SMD және THT монтаждау қызметтері' },
+  { number: '03', title: 'Плата прототиптерін пысықтау қызметтері' },
+  { number: '04', title: 'Компоненттерді платаға беткі монтаждау қызметтері' },
+  { number: '05', title: 'Платаларды көлемді (қолмен) монтаждау қызметтері' },
+],
+imageLabels: [
+  {
+    key: 'storage',
+    title: 'Өз өндірісіміз',
+    meta: 'Алматы қ., Алатау шағынауданы, Гумилёв көшесі, 16',
+  },
+  { key: 'customs', title: 'Келісімшарттық өндіріс' },
+  { key: 'packing', title: 'Тапсырыс бойынша платаны пысықтау' },
+  { key: 'serialization', title: 'Өндірісті локализациялау' },
+  { key: 'docs', title: 'Беткі THT-монтаждау қызметтері' },
+  { key: 'disposal', title: 'Көлемді монтаждау қызметтері' },
     ],
   },
   ru: {
@@ -120,50 +117,51 @@ const contentByLocale: Record<Locale, ServicesContent> = {
     items: [
       { number: '01', title: 'Контрактное производство (локализация номенклатуры)' },
       { number: '02', title: 'Услуги по SMD и ТНТ монтажу плат' },
-      { number: '03', title: 'Услуги по аренде помещений' },
+      { number: '03', title: 'Услуги по доработке прототипов плат' },
       { number: '04', title: 'Услуги повехностного монтажа компонентов на плату' },
-      { number: '05', title: 'Услуги объеёмного (ручного) монтажа плат' },
-      { number: '06', title: '  ' },
+      { number: '05', title: 'Услуги объёмного (ручного) монтажа плат' },
+    
     ],
     imageLabels: [
       {
         key: 'storage',
         title: 'Собственное производство',
-        meta: 'г Алматы, мкр. Алатау, ул. Гумилёва, 16',
+        meta: 'г. Алматы, мкр. Алатау, ул. Гумилёва, 16',
       },
       { key: 'customs', title: 'Контрактное производство' },
-      { key: 'packing', title: 'Ремонт и сервис оборудования' },
-      { key: 'serialization', title: 'Тестирование оборудования' },
-      { key: 'docs', title: 'Обучение и сертификация' },
-      { key: 'disposal', title: 'Гарантийное обслуживание' },
+      { key: 'packing', title: 'Доработка платы под заказ' },
+      { key: 'serialization', title: 'Локализация производства' },
+      { key: 'docs', title: 'Услуги поверхностного ТНТ-монтажа' },
+      { key: 'disposal', title: 'Услуги объёмного монтажа' },
     ],
   },
   en: {
     badge: 'Services',
-    titleStart: 'END-TO-END',
-    titleAccent: 'SOLUTIONS',
-    titleEnd: '',
-    description:
-      'We provide comprehensive telecommunications solutions — from equipment manufacturing and supply to training, technical, warranty and post-warranty support.',
-    imageAlt: 'Services',
-    items: [
-      { number: '01', title: 'Contract manufacturing and SMD and THT board assembly services' },
-      { number: '02', title: 'Providing equipment for Eltex hardware testing' },
-      { number: '03', title: 'Repair and maintenance of Eltex equipment' },
-      {
-        number: '04',
-        title: 'Engineer training programs and certification at the "Eltex Academy"',
-      },
-      { number: '05', title: 'Internship for students of technical specialties' },
-      { number: '06', title: 'Technical support in Russian and Kazakh languages' },
-    ],
-    imageLabels: [
-      { key: 'storage', title: 'In-house manufacturing', meta: 'SEZ PIT «Alatau»' },
-      { key: 'customs', title: 'Contract manufacturing' },
-      { key: 'packing', title: 'Equipment repair and service' },
-      { key: 'serialization', title: 'Equipment testing' },
-      { key: 'docs', title: 'Training and certification' },
-      { key: 'disposal', title: 'Warranty service' },
+titleStart: 'FULL',
+titleAccent: 'CYCLE',
+titleEnd: 'SOLUTIONS',
+description:
+  'We provide comprehensive telecommunications solutions — from equipment manufacturing and supply to training, technical, warranty and post-warranty support.',
+imageAlt: 'Services',
+items: [
+  { number: '01', title: 'Contract manufacturing (product range localization)' },
+  { number: '02', title: 'SMD and THT board assembly services' },
+  { number: '03', title: 'Board prototype modification services' },
+  { number: '04', title: 'Surface-mount component assembly services' },
+  { number: '05', title: 'Through-hole (manual) board assembly services' },
+
+],
+imageLabels: [
+  {
+    key: 'storage',
+    title: 'In-house production',
+    meta: 'Almaty, Alatau microdistrict, 16 Gumilyov Street',
+  },
+  { key: 'customs', title: 'Contract manufacturing' },
+  { key: 'packing', title: 'Custom board modification' },
+  { key: 'serialization', title: 'Production localization' },
+  { key: 'docs', title: 'Surface THT assembly services' },
+  { key: 'disposal', title: 'Through-hole assembly services' },
     ],
   },
   uz: {
@@ -177,10 +175,9 @@ imageAlt: 'Xizmatlar',
 items: [
   { number: '01', title: 'Shartnoma asosidagi ishlab chiqarish (nomenklaturani lokalizatsiya qilish)' },
   { number: '02', title: 'Platalarni SMD va THT montaj qilish xizmatlari' },
-  { number: '03', title: 'Binolarni ijaraga berish xizmatlari' },
+  { number: '03', title: 'Plata prototiplarini takomillashtirish xizmatlari' },
   { number: '04', title: 'Komponentlarni plataga yuzaviy montaj qilish xizmatlari' },
   { number: '05', title: 'Platalarni hajmiy (qoʻlda) montaj qilish xizmatlari' },
-  { number: '06', title: '  ' },
 ],
 imageLabels: [
   {
@@ -189,10 +186,10 @@ imageLabels: [
     meta: 'Almati sh., Alatau mkr., Gumilyov koʻchasi, 16',
   },
   { key: 'customs', title: 'Shartnoma asosidagi ishlab chiqarish' },
-  { key: 'packing', title: 'Uskunalarni taʼmirlash va servis xizmati' },
-  { key: 'serialization', title: 'Uskunalarni sinovdan oʻtkazish' },
-  { key: 'docs', title: 'Oʻqitish va sertifikatlash' },
-  { key: 'disposal', title: 'Kafolat xizmati' },
+  { key: 'packing', title: 'Buyurtma boʻyicha platani takomillashtirish' },
+  { key: 'serialization', title: 'Ishlab chiqarishni lokalizatsiya qilish' },
+  { key: 'docs', title: 'Yuzaviy THT-montaj xizmatlari' },
+  { key: 'disposal', title: 'Hajmiy montaj xizmatlari' },
     ],
   },
 };

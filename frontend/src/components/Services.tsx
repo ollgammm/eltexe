@@ -115,7 +115,7 @@ const contentByLocale: Record<Locale, ServicesContent> = {
     titleAccent: 'ПОЛНОГО',
     titleEnd: 'ЦИКЛА',
     description:
-      'Предоставляем комплексные телекоммуникационные решения — от производства и поставки оборудования до обучения, технической,  гарантийной и постгарантийной поддержки.',
+      'Предоставляем комплексные телекоммуникационные решения — от производства и поставки оборудования до обучения, технической,  гарантийной и постгарантийной поддержки',
     imageAlt: 'Услуги',
     items: [
       { number: '01', title: 'Контрактное производство и услуги по SMD и ТНТ монтажу плат' },
@@ -176,7 +176,7 @@ items: [
   { number: '03', title: 'Binolarni ijaraga berish xizmatlari' },
   { number: '04', title: 'Komponentlarni plataga yuzaviy montaj qilish xizmatlari' },
   { number: '05', title: 'Platalarni hajmiy (qoʻlda) montaj qilish xizmatlari' },
-  { number: '06', title: '  ' },
+  
 ],
 imageLabels: [
   {
