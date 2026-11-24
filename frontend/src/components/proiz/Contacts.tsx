@@ -56,8 +56,8 @@ const contentByLocale: Record<Locale, ContactsContent> = {
     emailTwoLabel: 'E-MAIL 2',
   },
   uz: {
-       imageAlt: 'Kontaktlar',
-    badge: 'Kontaktlar',
+       imageAlt: 'Aloqa',
+    badge: 'Aloqa',
     titleStart: 'Texnologiyalar va tajriba',
     titleEnd: 'har qanday miqyosdagi vazifalar uchun',
     addressLabel: 'Manzil',
