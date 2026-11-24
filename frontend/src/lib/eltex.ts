@@ -128,7 +128,7 @@ hero: {
   items: [
     {
       title: 'Алматыдағы өндіріс',
-      text: 'Алматы қ., Алатау шағынауданы, Гумилёв көшесі, 16 post@eltexalatau.kz',
+      text: 'Алматы қ., Алатау шағынауданы, Гумилёв көшесі, 16 b2b@smartalatau.kz',
       img: '/hero/hero-icon1.webp',
     },
     {
@@ -384,7 +384,7 @@ hero: {
   items: [
     {
       title: 'Production in Almaty',
-      text: 'Almaty, Alatau microdistrict, 16 Gumilyov Street post@eltexalatau.kz',
+      text: 'Almaty, Alatau microdistrict, 16 Gumilyov Street b2b@smartalatau.kz',
       img: '/hero/hero-icon1.webp',
     },
     {
@@ -512,7 +512,7 @@ hero: {
   items: [
     {
       title: 'Almatidagi ishlab chiqarish',
-      text: 'Almati sh., Alatau mkr., Gumilyov koʻchasi, 16 post@eltexalatau.kz',
+      text: 'Almati sh., Alatau mkr., Gumilyov koʻchasi, 16 b2b@smartalatau.kz',
       img: '/hero/hero-icon1.webp',
     },
     {
