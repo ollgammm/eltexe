@@ -105,6 +105,7 @@ const dictionaries: Record<Locale, Dictionary> = {
 },
 proiz: {
   badge: 'ӨНДІРІС',
+  link: 'Перейти',
 },
 header: {
   navLinks: [
@@ -360,6 +361,7 @@ advantages: {
 },
 proiz: {
   badge: 'PRODUCTION',
+  link: 'Перейти',
 },
 header: {
   navLinks: [
@@ -487,6 +489,7 @@ advantages: {
 },
 proiz: {
   badge: 'ISHLAB CHIQARISH',
+  link: 'Перейти',
 },
 header: {
   navLinks: [
