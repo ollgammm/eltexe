@@ -84,7 +84,7 @@ titleStart: 'ТОЛЫҚ',
 titleAccent: 'ЦИКЛДІ',
 titleEnd: 'ШЕШІМДЕР',
 description:
-  'Біз кешенді телекоммуникациялық шешімдерді ұсынамыз — жабдықты өндіру мен жеткізуден бастап оқытуға, техникалық, кепілдік және кепілдіктен кейінгі қолдауға дейін.',
+  '',
 imageAlt: 'Қызметтер',
 items: [
   { number: '01', title: 'Келісімшарттық өндіріс (номенклатураны локализациялау)' },
@@ -112,7 +112,7 @@ imageLabels: [
     titleAccent: 'ПОЛНОГО',
     titleEnd: 'ЦИКЛА',
     description:
-      'Предоставляем комплексные телекоммуникационные решения — от производства и поставки оборудования до обучения, технической,  гарантийной и постгарантийной поддержки.',
+      '',
     imageAlt: 'Услуги',
     items: [
       { number: '01', title: 'Контрактное производство (локализация номенклатуры)' },
@@ -141,7 +141,7 @@ titleStart: 'FULL',
 titleAccent: 'CYCLE',
 titleEnd: 'SOLUTIONS',
 description:
-  'We provide comprehensive telecommunications solutions — from equipment manufacturing and supply to training, technical, warranty and post-warranty support.',
+  '',
 imageAlt: 'Services',
 items: [
   { number: '01', title: 'Contract manufacturing (product range localization)' },
@@ -170,7 +170,7 @@ titleStart: 'TOʻLIQ',
 titleAccent: 'TSIKLLI',
 titleEnd: 'YECHIMLAR',
 description:
-  'Biz kompleks telekommunikatsiya yechimlarini taklif etamiz — uskunalarni ishlab chiqarish va yetkazib berishdan tortib, oʻqitish, texnik, kafolat va kafolatdan keyingi qoʻllab-quvvatlashgacha.',
+  '',
 imageAlt: 'Xizmatlar',
 items: [
   { number: '01', title: 'Shartnoma asosidagi ishlab chiqarish (nomenklaturani lokalizatsiya qilish)' },
