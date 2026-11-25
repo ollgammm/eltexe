@@ -49,7 +49,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
   uz: {
     description: 'Sizning IT-infratuzilmangiz bizning nazoratimizda',
     navigationTitle: 'Navigatsiya',
-    contactsTitle: 'Kontaktlar',
+    contactsTitle: 'Aloqada',
     address: 'Olmaota sh., Alatau m., Gumilyov ko‘chasi, 16, | Toshkent sh., Yunusobod tumani, Iftixor koʻchasi, 1B',
     copyright: '© 2026 "Eltex Alatau" MChJ. Barcha huquqlar himoyalangan.',
     privacyPolicy: 'Maxfiylik siyosati',
