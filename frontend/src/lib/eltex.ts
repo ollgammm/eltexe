@@ -16,7 +16,7 @@ export const LOCALE_NAMES: Record<Locale, string> = {
   uz: 'O‘zbekcha',
 };
 
-export const DEFAULT_LOCALE: Locale = 'ru';
+export const DEFAULT_LOCALE: Locale = 'uz';
 
 export type NavigationLink = { label: string };
 
