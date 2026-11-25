@@ -33,7 +33,7 @@ const contentByLocale: Record<Locale, FooterContent> = {
     navigationTitle: 'Навигация',
     contactsTitle: 'Контакты',
     address: 'г.Алматы, мкр. Алатау, ул. Гумилёва, 16, | г.Ташкент, Юнусабадский район, ул.Ифтихор 1Б',
-    copyright: '© 2026 ТОО "Элтекс Алатау". Все права защищены.',
+    copyright: '© 2026 ТОО "SMART ALATAU (СМАРТ АЛАТАУ)". Все права защищены.',
     privacyPolicy: 'Политика конфиденциальности',
     userAgreement: 'Пользовательское соглашение',
   },
