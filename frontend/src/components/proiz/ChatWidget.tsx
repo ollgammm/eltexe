@@ -7,6 +7,9 @@ const TG_CHAT_ID: string = '-5175306815';
 const SITE: string = 'eltexalatau.kz';
 const TG_ON: boolean = TG_TOKEN !== '';
 
+
+
+
 const PHONE_NUDGES = [
   '\n\nОставьте номер телефона — менеджер перезвонит в течении 1 часа.',
   '\n\nУкажите контактный номер, и менеджер подберёт решение под вашу задачу.',
@@ -701,7 +704,7 @@ export default function ChatWidget() {
             </button>
           </div>
 
-          <div className="cw-foot">eltexalatau.kz · Powered by GPT-4o</div>
+          <div className="cw-foot">smartalatau.kz · Powered by GPT-4o</div>
         </div>
 
         {toast && <div className="cw-toast">{toast}</div>}

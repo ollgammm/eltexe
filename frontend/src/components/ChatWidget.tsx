@@ -13,7 +13,7 @@ const inter = Inter({
 
 const TG_TOKEN: string = '8507762662:AAHJ2fdVvTXZrOlhYkiujA54pnoK3Ho0AYs';
 const TG_CHAT_ID: string = '-5175306815';
-const SITE: string = 'eltexalatau.kz';
+const SITE: string = 'smartalatau.kz';
 const TG_ON: boolean = TG_TOKEN !== '';
 
 const PHONE_NUDGES = [
