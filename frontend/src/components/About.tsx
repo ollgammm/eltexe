@@ -1,4 +1,4 @@
-import { createTranslator, type AboutItem, type Locale } from '@/lib/eltex-alatau';
+import { createTranslator, PRESENTATION_FILES, type Locale } from '@/lib/eltex-alatau';
 
 type AboutProps = {
   locale: Locale;
@@ -19,13 +19,13 @@ export default function About({ locale }: AboutProps) {
         <h2 className="text-lg font-semibold text-black">{badge}</h2>
       </div>
 
-      <a
-        href="/presentation.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-6 flex w-full items-center justify-center gap-1 rounded-full bg-[#353EEA] px-5 py-2 text-sm text-white sm:mt-6 sm:w-max sm:justify-start lg:mt-6 lg:px-6 lg:py-2 lg:text-base">
-        {btn}
-      </a>
+     <a
+  href={PRESENTATION_FILES[locale] ?? PRESENTATION_FILES.ru}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 flex w-full items-center ...">
+  {btn}
+</a>
     </section>
   );
 }

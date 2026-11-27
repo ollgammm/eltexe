@@ -18,6 +18,13 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 
 export const DEFAULT_LOCALE: Locale = 'uz';
 
+export const PRESENTATION_FILES: Record<Locale, string> = {
+  ru: '/presentations/oem-ru.pdf',
+  kk: '/presentations/oem-kk.pdf',
+  en: '/presentations/oem-en.pdf',
+  uz: '/presentations/oem-uz.pdf',
+};
+
 export type NavigationLink = { label: string };
 export type HeroItem = { title: string; text: string; img: string };
 export type AboutItem = { title: string; text: string; icon: string };
