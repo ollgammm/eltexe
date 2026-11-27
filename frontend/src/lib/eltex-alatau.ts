@@ -19,10 +19,10 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 export const DEFAULT_LOCALE: Locale = 'uz';
 
 export const PRESENTATION_FILES: Record<Locale, string> = {
-  ru: 'Eltex_Alatau_OEM_2026_RU.pdf',
-  kk: 'Eltex_Alatau_OEM_2026_KK.pdf',
-  en: 'Eltex_Alatau_OEM_2026_EN.pdf',
-  uz: 'Eltex_Alatau_OEM_2026_UZ.pdf',
+  ru: '/Eltex_Alatau_OEM_2026_RU.pdf',
+  kk: '/Eltex_Alatau_OEM_2026_KK.pdf',
+  en: '/Eltex_Alatau_OEM_2026_EN.pdf',
+  uz: '/Eltex_Alatau_OEM_2026_UZ.pdf',
 };
 
 export type NavigationLink = { label: string };
